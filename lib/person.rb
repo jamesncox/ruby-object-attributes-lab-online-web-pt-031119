@@ -3,6 +3,7 @@ class Person
     @name
   end
   
+  def name=(name)
   def initialize(job)
     @job = job
   end
